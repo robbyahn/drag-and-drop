@@ -1,0 +1,13 @@
+.draggable {width: 200px;}
+
+.draggable.one { background-color: blue; float:left;}
+.draggable.two { background-color: red; float:left; }
+.draggable.three { background-color: green; float:left; }
+.draggable { background-color: #efefef; border: 1px solid #494949; float:left;}
+
+.wrapper {border: 1px solid black; float: left; min-width: 300px;}
+.droppable { border: 2px dotted black; }
+.home { min-height: 50px; margin-bottom:5px; min-width: 250px; display: inline-block;}
+.bank { margin:5px; width:90%;}
+div { min-height: 50px; width: 50px;}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>	
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>	
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>		
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+	
+	<script src="custom.js"></script>
+</head>
+<body>
+	<h3>Course List</h3>
+	<div id="bank" class="droppable bank" data-scope="blue,red,green">
+		<div class="draggable one">Course A</div>
+		<div class="draggable two">Course B</div>
+		<div class="draggable three">Course C</div>
+		<div class="draggable four">Course D</div>
+		<div class="draggable five">Course E</div>
+		<div class="draggable six">Course F</div>
+	</div>
+	
+	<div class="clear-left">&nbsp;</div>
+	
+	<!-- target -->
+	<div class="wrapper">
+		<h3>Assigned</h3>
+		<div id="asssigned" class="droppable home"></div>
+	</div>
+	
+	<div class="wrapper">
+		<h3>In progress</h3>
+		<div id="in-progress" class="droppable home"></div>
+	</div>
+	
+	<div class="wrapper">
+	<h3>Completed</h3>
+	<div id="completed" class="droppable home"></div>
+	</div>
+	
+	
+</body>
+</html>
